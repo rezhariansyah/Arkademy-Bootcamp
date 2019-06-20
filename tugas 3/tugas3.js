@@ -28,16 +28,16 @@ var sumAll = () => {
   var sNumber = hasil.toString().split("")
   var arr = sNumber.map(Number)
   console.log(arr)
-  for (var j = 0; j < arr.length; j++) {
-    hasil2 += arr[j]
+  for (var i = 0; i < arr.length; i++) {
+    hasil2 += arr[i]
   }
 
   console.log(`${arr[0]} + ${arr[1]} + ${arr[2]} = ${hasil2}`)
   var sNumber = hasil2.toString().split("")
   var arr = sNumber.map(Number)
   console.log(arr)
-  for (var j = 0; j < arr.length; j++) {
-    hasil3 += arr[j]
+  for (var i = 0; i < arr.length; i++) {
+    hasil3 += arr[i]
   }
 
   return `${arr[0]} + ${arr[1]} = ${hasil3}`
