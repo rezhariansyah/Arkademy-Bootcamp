@@ -6,7 +6,7 @@ var perintah = [true, false, false, false, true]
 var printer = (arr) => {
     var hasil = ""
     for (var i = 0; i < arr.length; i++) {
-        if (arr[i] === true) {
+        if (arr[i]) {
             hasil += data[i]
         }
 

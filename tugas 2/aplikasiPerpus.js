@@ -17,6 +17,7 @@ var data = [
     }
 ]
 
+// 
 var statusPinjam = (str) => {
     hasil = ""
     for (var i=0 ; i<data.length ; i++ ) {
@@ -32,6 +33,8 @@ var statusPinjam = (str) => {
     } return hasil
 }
 
+
+// status buku yang masih tersedia
 var bukuStatus = () => {
     var hasil = ""
     for (var i=0 ; i<data.length ; i++) {

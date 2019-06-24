@@ -2,6 +2,7 @@ var arr = [5,7,2,9,1,2,2,5,2,2]
 
 var median = () => {
     sort = arr.sort((a,b) => a-b)
+    
     if (arr.length % 2 == 0) {
         var nilai1 = parseInt(arr[(arr.length/2)-1])
         var nilai2 = parseInt(arr[arr.length/2])

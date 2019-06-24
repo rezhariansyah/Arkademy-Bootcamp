@@ -10,7 +10,7 @@ function palindrome(str) {
   }
   return true;
 }
-console.log(palindrome("nurses run"));
+console.log(palindrome("makam"));
 
 // penjumlahan array of number
 var sumAll = () => {
